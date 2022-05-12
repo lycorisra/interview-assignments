@@ -1,11 +1,11 @@
-import React, { useEffect, useState, useRef, } from 'react'
+import React from 'react'
 import Carousel from '../components/Carousel'
 import { Options } from '../components/Carousel/Options'
 import img_iphone from '../assets/iphone.png'
 import img_tablet from '../assets/tablet.png'
 import img_airpods from '../assets/airpods.png'
 
-const options: Options[] = [
+const options: Array<Options> = [
   {
     url: img_iphone,
     title: 'xPhone',
